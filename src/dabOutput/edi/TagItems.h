@@ -27,7 +27,10 @@
 #ifndef _TAGITEMS_H_
 #define _TAGITEMS_H_
 
-#include "config.h"
+#ifdef HAVE_CONFIG_H
+#   include "config.h"
+#endif
+
 #include "Eti.h"
 #include <vector>
 #include <string>

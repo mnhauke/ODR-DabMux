@@ -25,7 +25,10 @@
 #ifndef _TAGPACKET_H_
 #define _TAGPACKET_H_
 
-#include "config.h"
+#ifdef HAVE_CONFIG_H
+#   include "config.h"
+#endif
+
 #include "TagItems.h"
 #include <vector>
 #include <string>

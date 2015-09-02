@@ -27,7 +27,10 @@
 #ifndef _AFPACKET_H_
 #define _AFPACKET_H_
 
-#include "config.h"
+#ifdef HAVE_CONFIG_H
+#   include "config.h"
+#endif
+
 #include "TagItems.h"
 #include <vector>
 #include <iostream>

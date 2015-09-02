@@ -31,7 +31,10 @@
 #ifndef _PFT_H_
 #define _PFT_H_
 
-#include "config.h"
+#ifdef HAVE_CONFIG_H
+#   include "config.h"
+#endif
+
 #include <vector>
 #include <list>
 #include <stdexcept>
