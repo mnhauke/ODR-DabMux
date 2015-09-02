@@ -1,0 +1,6 @@
+#cmakedefine VERSION @VERSION@
+#cmakedefine GITVERSION @GITVERSION@
+#cmakedefine PACKAGE @PACKAGE@
+#cmakedefine PACKAGE_NAME @PACKAGE_NAME@
+#cmakedefine PACKAGE_VERSION @PACKAGE_VERSION@
+
